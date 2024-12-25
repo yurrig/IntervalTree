@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>IntervalTree</id>
+        <authors>Ivan Pinezhaninov</authors>
+        <version>0.0.1</version>
+        <description>A red-black self-balancing interval tree C++11 header-only implementation.</description>
+        <tags>native nativepackage C++ IntervalTree</tags>
+    </metadata>
+    <files>
+        <file src="include\**\*"      target="build\native\include" />
+        <file src="IntervalTree.props" target="build\native"         />
+    </files>
+</package>
